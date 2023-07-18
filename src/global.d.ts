@@ -1,0 +1,1 @@
+import '@fastly/js-compute';

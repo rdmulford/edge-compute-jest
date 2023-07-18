@@ -1,8 +1,10 @@
 /// <reference types="@fastly/js-compute" />
 import { Router } from '@fastly/expressly';
 import { RequestHandlerCallback } from '@fastly/expressly/dist/lib/routing/request-handler';
+import { SecretStore } from 'fastly:secret-store';
 
 const router = new Router();
+
 
 const middleware: RequestHandlerCallback = async (_req, res) => {
     res.set('x-powered-by', 'expressly');
@@ -18,3 +20,9 @@ router.get('/', async (req, res) => {
 // 404/405 response for everything else
 
 router.listen();
+
+export const getSecret = () => {
+    const secrets = new SecretStore('test-store');
+    // not actually getting secrets for demo purpose
+    return 'test-secret'
+}
