@@ -1,17 +1,37 @@
-# TypeScript Expressly Example Application
+# Edge compute typescript jest failure example
 
-[![Deploy to Fastly](https://deploy.edgecompute.app/button)](https://deploy.edgecompute.app/deploy)
+This repo demonstrates:
 
-Expressly is a lightweight and minimalist routing layer for JavaScript apps running on Fastly's Compute@Edge. Get to know the Fastly Compute@Edge environment with this Typescript Expressly starter that demonstrates routing and middleware. To learn more about Expressly, check out our [blog post](https://www.fastly.com/blog/write-less-do-more-at-the-edge-introducing-expressly) and visit our [documentation](https://expressly.edgecompute.app/).
+1. Simple example of an edge compute typescript setup
+2. Adding jest
+3. Failure to run jest tests that include fastly modules
 
-**For more details about other starter kits for Compute@Edge, see the [Fastly developer hub](https://developer.fastly.com/solutions/starters)**
+## Demo
 
-## Understanding the code
+```sh
+yarn test
+```
 
-This starter is intentionally lightweight, and only requires the [`@fastly/js-compute`](https://www.npmjs.com/package/@fastly/js-compute) and [`@fastly/expressly`](https://www.npmjs.com/package/@fastly/expressly) npm packages. 
+You will see:
 
-The starter doesn't require the use of any backends. Once deployed, you will have a Fastly service running on Compute@Edge that can generate synthetic responses at the edge.
+```sh
+❯ yarn test
+yarn run v1.22.19
+$ NODE_OPTIONS=--experimental-vm-modules jest
+ FAIL  src/__tests__/index.test.ts
+  ● Test suite failed to run
 
-## Security issues
+    Cannot find module 'fastly:secret-store' from 'src/index.ts'
 
-Please see our [SECURITY.md](SECURITY.md) for guidance on reporting security-related issues.
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/resolver.js:427:11)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.935 s
+Ran all test suites.
+(node:70416) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```
