@@ -301,11 +301,6 @@
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bytecodealliance/jco@^0.6.1":
-  version "0.6.1"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/jco/-/jco-0.6.1.tgz#29f972a5ad5d8b6790ea692c4e0f4c4fa851ead1"
-  integrity sha512-AchbXV361SDG51Bk+OKgU1qLm/3th7ncNrBBQHMgncqM7xiONCM5E3regxj+LSnK07dNgdSAnbjwT5MI4QsyDw==
-
 "@bytecodealliance/jco@^0.9.1":
   version "0.9.4"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/jco/-/jco-0.9.4.tgz#ed759b2c5303069d741da847734a3a574139b473"
@@ -324,20 +319,10 @@
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/preview2-shim/-/preview2-shim-0.0.10.tgz#ed67e97d8f5a4b31b11fc6c202fd19ba472a21ad"
   integrity sha512-h6Kx6fYYKYLPzuTZiJhvdTEpBDngZUqMAAaNWK2afZjYGl05KL1Arc5IhMyY77DIRi346gT8qfPodvV3oGQnBQ==
 
-"@bytecodealliance/wizer-darwin-arm64@1.6.1-beta.4":
-  version "1.6.1-beta.4"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-darwin-arm64/-/wizer-darwin-arm64-1.6.1-beta.4.tgz#0d4a4ee3587afb3b88fb5d62b52d2b7dacc4aca6"
-  integrity sha512-NyleEH0GKBqS0DCuKceY3a2ZxF/aNzYa68swbKKljSFh6uo/3Cqr/U5/SuTxval6/VwtZ1eEzRPaLbLlUE5r4w==
-
 "@bytecodealliance/wizer-darwin-arm64@3.0.1":
   version "3.0.1"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-darwin-arm64/-/wizer-darwin-arm64-3.0.1.tgz#cee796abb1a1e3b34d5889f431cdb39bc6a1d77f"
   integrity sha512-/8KYSajyhO9koAE3qQhYfC6belZheJw9X3XqW7hrizTpj6n4z4OJFhhqwJmiYFUUsPtC7OxcXMFFPbTuSQPBcw==
-
-"@bytecodealliance/wizer-darwin-x64@1.6.1-beta.4":
-  version "1.6.1-beta.4"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-darwin-x64/-/wizer-darwin-x64-1.6.1-beta.4.tgz#88f7ec0c2b2ea11640ab119e2b95d7034c539094"
-  integrity sha512-2s8HPLrttAyYUJNHQlLVi3rDGlnk9IzEJTbw0DApfpVnCZZ1aTLt6MXTIBeOYo9si5Q4cqyDHT5bAoNZvJTk9A==
 
 "@bytecodealliance/wizer-darwin-x64@3.0.1":
   version "3.0.1"
@@ -354,35 +339,15 @@
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-linux-s390x/-/wizer-linux-s390x-3.0.1.tgz#d53d7ae5809573fa72d0d4dc4742cec9ae4aed1b"
   integrity sha512-Smvy9mguEMtX0lupDLTPshXUzAHeOhgscr1bhGNjeCCLD1sd8rIjBvWV19Wtra0BL1zTuU2EPOHjR/4k8WoyDg==
 
-"@bytecodealliance/wizer-linux-x64@1.6.1-beta.4":
-  version "1.6.1-beta.4"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-linux-x64/-/wizer-linux-x64-1.6.1-beta.4.tgz#fec633bbeb9f01579ab3988e0babc917abc4e0bb"
-  integrity sha512-S+oYRGGveuPLtiI6V7SQpZHhw43asLArC+fGrJRQ3OsHs8aj/IVusRLVYgWfKw1HtZm9iIWrjH9WYO6BWak4eQ==
-
 "@bytecodealliance/wizer-linux-x64@3.0.1":
   version "3.0.1"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-linux-x64/-/wizer-linux-x64-3.0.1.tgz#fa074bc047d693dc5a95ce4b1b800bd58dae24ee"
   integrity sha512-uUue78xl7iwndsGgTsagHLTLyLBVHhwzuywiwHt1xw8y0X0O8REKRLBoB7+LdM+pttDPdFtKJgbTFL4UPAA7Yw==
 
-"@bytecodealliance/wizer-win32-x64@1.6.1-beta.4":
-  version "1.6.1-beta.4"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-win32-x64/-/wizer-win32-x64-1.6.1-beta.4.tgz#71b6af911cb3620522df6e592a73b05d7cc50b17"
-  integrity sha512-NxqrLqFnaMyldkN7lBVS+Em23f84/RKrHjBXt9WnZK2RtJjvwoCXr+so6+qfj4f1K9BhIZ8UaBfYwqPvtLOcZQ==
-
 "@bytecodealliance/wizer-win32-x64@3.0.1":
   version "3.0.1"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer-win32-x64/-/wizer-win32-x64-3.0.1.tgz#d5f59c56cf65c4aa261078a04ca46b8540a4416d"
   integrity sha512-ycd38sx1UTZpHZwh8IfH/4N3n0OQUB8awxkUSLXf9PolEd088YbxoPB3noHy4E+L2oYN7KZMrg9517pX0z2RhQ==
-
-"@bytecodealliance/wizer@^1.6.1-beta.4":
-  version "1.6.1-beta.4"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@bytecodealliance/wizer/-/wizer-1.6.1-beta.4.tgz#14b5e052f957c05c71f405213e738e6b3253de8f"
-  integrity sha512-afgV4lyYVMBN/9/yNDgYGTn92D7VrqS0yTZ3WZgDyDTiOWjmSuQimEiX+VzCiYjF9GXsKwzCY1FEOu1pY2Evgw==
-  optionalDependencies:
-    "@bytecodealliance/wizer-darwin-arm64" "1.6.1-beta.4"
-    "@bytecodealliance/wizer-darwin-x64" "1.6.1-beta.4"
-    "@bytecodealliance/wizer-linux-x64" "1.6.1-beta.4"
-    "@bytecodealliance/wizer-win32-x64" "1.6.1-beta.4"
 
 "@bytecodealliance/wizer@^3.0.1":
   version "3.0.1"
@@ -517,29 +482,6 @@
   version "0.17.19"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/@esbuild/win32-x64/-/win32-x64-0.17.19.tgz#8cfaf2ff603e9aabb910e9c0558c26cf32744061"
   integrity sha512-lAhycmKnVOuRYNtRtatQR1LPQf2oYCkRGkSFnseDAKPl8lu5SOsK/e1sXe5a0Pc5kHIHe6P2I/ilntNv2xf3cA==
-
-"@fastly/expressly@^1.1.0":
-  version "1.4.0"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@fastly/expressly/-/expressly-1.4.0.tgz#d9da0e750546699dc77e163776d12ba7881b669b"
-  integrity sha512-QY1SwdMCVoB1i+4QtPX7W19Md43HNqCStZBdsi8F57GEuGtFSnXbJWUQMa7SP5EY33jVEUy9qwc+icAwy/OFuA==
-  dependencies:
-    "@fastly/js-compute" "^1.7.0"
-    cookie "^0.5.0"
-    core-js "^3.30.0"
-    path-to-regexp "^6.2.1"
-
-"@fastly/js-compute@^1.7.0":
-  version "1.13.0"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/@fastly/js-compute/-/js-compute-1.13.0.tgz#1ec1303dab407bbb21629e06436a4f302b8575a9"
-  integrity sha512-4N2GAg3LHauPhCQ3kZd8RGY3m1caSdNDbEYRSKNgCcpnlDgyoRy0CBqa/12HNlkyCnxgDtcU8ZhL1r9VdcyyCw==
-  dependencies:
-    "@bytecodealliance/jco" "^0.6.1"
-    "@bytecodealliance/wizer" "^1.6.1-beta.4"
-    acorn "^8.8.2"
-    acorn-walk "^8.2.0"
-    esbuild "^0.17.18"
-    magic-string "^0.30.0"
-    regexpu-core "^5.3.2"
 
 "@fastly/js-compute@^3.1.1":
   version "3.1.1"
@@ -1529,16 +1471,6 @@ convert-source-map@^2.0.0:
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
 
-cookie@^0.5.0:
-  version "0.5.0"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
-  integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
-
-core-js@^3.30.0:
-  version "3.31.1"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/core-js/-/core-js-3.31.1.tgz#f2b0eea9be9da0def2c5fece71064a7e5d687653"
-  integrity sha512-2sKLtfq1eFST7l7v62zaqXacPc7uG8ZAya8ogijLhTtaKNcpzpB4TMoTw2Si+8GYKRwFPMMtUT0263QFWFfqyQ==
-
 create-require@^1.1.0:
   version "1.1.1"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
@@ -2196,6 +2128,14 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/jest-pnp-resolver/-/jest-pnp-resolver-1.2.3.tgz#930b1546164d4ad5937d5540e711d4d38d4cad2e"
   integrity sha512-+3NpwQEnRoIBtx4fyhblQDPgJI0H1IEIkX7ShLUjPGA7TtUTvI1oiKi3SR4oBR0hQhQR80l4WAe5RrXBwWMA8w==
 
+jest-preset-fastly-js-compute@^0.11.0:
+  version "0.11.0"
+  resolved "https://binrepo.target.com/artifactory/api/npm/npm/jest-preset-fastly-js-compute/-/jest-preset-fastly-js-compute-0.11.0.tgz#29242adfbbdd25230b2240aaeefa59d0eee38441"
+  integrity sha512-ChQjtrzoucQHoGzpyYbS3cm9ZfOzb04pZ6RDR0nlCWakkGCsGGnhzj493PVTG4KlRoQZTTSTYN+K6PPlPRBlog==
+  dependencies:
+    node-fetch "^2.6.7"
+    ts-jest "^29.0.3"
+
 jest-regex-util@^29.4.3:
   version "29.4.3"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/jest-regex-util/-/jest-regex-util-29.4.3.tgz#a42616141e0cae052cfa32c169945d00c0aa0bb8"
@@ -2553,6 +2493,13 @@ neo-async@^2.6.2:
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+node-fetch@^2.6.7:
+  version "2.6.12"
+  resolved "https://binrepo.target.com/artifactory/api/npm/npm/node-fetch/-/node-fetch-2.6.12.tgz#02eb8e22074018e3d5a83016649d04df0e348fba"
+  integrity sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==
+  dependencies:
+    whatwg-url "^5.0.0"
+
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -2659,11 +2606,6 @@ path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
-
-path-to-regexp@^6.2.1:
-  version "6.2.1"
-  resolved "https://binrepo.target.com/artifactory/api/npm/npm/path-to-regexp/-/path-to-regexp-6.2.1.tgz#d54934d6798eb9e5ef14e7af7962c945906918e5"
-  integrity sha512-JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -3050,7 +2992,12 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-ts-jest@^29.1.1:
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://binrepo.target.com/artifactory/api/npm/npm/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
+ts-jest@^29.0.3, ts-jest@^29.1.1:
   version "29.1.1"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/ts-jest/-/ts-jest-29.1.1.tgz#f58fe62c63caf7bfcc5cc6472082f79180f0815b"
   integrity sha512-D6xjnnbP17cC85nliwGiL+tpoKN0StpgE0TeOjXQTU6MVCfsB4v7aW05CgQ/1OywGb0x/oy9hHFnN+sczTiRaA==
@@ -3187,6 +3134,11 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://binrepo.target.com/artifactory/api/npm/npm/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
 webpack-cli@^5.0.1:
   version "5.1.4"
   resolved "https://binrepo.target.com/artifactory/api/npm/npm/webpack-cli/-/webpack-cli-5.1.4.tgz#c8e046ba7eaae4911d7e71e2b25b776fcc35759b"
@@ -3248,6 +3200,14 @@ webpack@^5, webpack@^5.75.0:
     terser-webpack-plugin "^5.3.7"
     watchpack "^2.4.0"
     webpack-sources "^3.2.3"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://binrepo.target.com/artifactory/api/npm/npm/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which@^2.0.1:
   version "2.0.2"
